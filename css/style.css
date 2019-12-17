@@ -59,13 +59,60 @@ img{
 
 
 .feature-content{
-	padding: 8rem 0;
+	padding: 4rem 0;
 	overflow: hidden;
 
 }
 .feature-dark{
-	background: #262F36;
+	background: #545454;
 	color: white;
+}
+.feature-facts{
+	background: #f0f0f0;
+}
+.fancy-heading{
+	
+font-size: 42px;
+line-height: 23px;
+color: #444444;
+font-family: "Patua One";
+font-weight: 400;
+
+}
+.fancy-heading2{
+	font-size: 25px;
+    line-height: 23px;
+    color: #091e2c;
+    font-family: "Patua One";
+    font-weight: bold;
+}
+.feature-4b4b4b{
+	background: #4b4b4b;
+	color: #aaaaaa;
+}
+.feature-blue{
+	background: #2e96db;
+}
+.big-blue-number{
+	font-size: 90px;
+line-height: 23px;
+color: #2e96db;
+font-family: "Patua One";
+font-weight: 400;
+}
+.facts-heading{
+	font-size: 25px;
+line-height: 30px;
+color: #444444;
+font-family: "Patua One";
+font-weight: 400;
+}
+.fancy-caption{
+	font-size: 18px;
+line-height: 21px;
+color: #a8a8a8;
+font-family: "Arial";
+text-align: center;
 }
 .feature-dark h2{
 	 color: white; 
@@ -74,6 +121,47 @@ img{
 .feature-alt{
 	background:#f0f0f0;
 }
+
+.vitae-text{
+
+font-size: 13px;
+line-height: 21px;
+color: #626262;
+font-family: "Arial";
+text-align: center;
+}
+
+.vitae-text2{
+	font-size: 13px;
+	line-height: 23px;
+	color: #747474;
+	font-family: "Helvetica World";
+}
+					
+.vitae-heading{
+
+font-size: 20px;
+line-height: 23px;
+color: #444444;
+font-family: "Patua One";
+font-weight: 400;
+text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /* mesia queries ***/
 @media screen and ( min-width : 991px){
