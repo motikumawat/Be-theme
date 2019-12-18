@@ -65,7 +65,7 @@ img{
 }
 .feature-dark{
 	background: #545454;
-	color: white;
+	
 }
 .feature-facts{
 	background: #f0f0f0;
@@ -112,14 +112,22 @@ font-weight: 400;
 line-height: 21px;
 color: #a8a8a8;
 font-family: "Arial";
-text-align: center;
+
+}
+.fancy-caption2{
+	font-size: 14px;
+line-height: 21px;
+color: #a8a8a8;
+font-family: "Arial";
+
 }
 .feature-dark h2{
 	 color: white; 
 
 }
 .feature-alt{
-	background:#f0f0f0;
+	background:#082233;
+	color: white;
 }
 
 .vitae-text{
@@ -132,11 +140,19 @@ text-align: center;
 }
 
 .vitae-text2{
-	font-size: 13px;
-	line-height: 23px;
-	color: #747474;
-	font-family: "Helvetica World";
+
+font-size: 13px;
+line-height: 21px;
+color: #626262;
+font-family: "Helvetica World";
 }
+.vitae-text3{
+	font-size: 13px;
+line-height: 19px;
+color: #c5c5c5;
+font-family: "Arial";
+}
+
 					
 .vitae-heading{
 
@@ -147,7 +163,21 @@ font-family: "Patua One";
 font-weight: 400;
 text-align: center;
 }
-
+.vitae-heading2{
+	font-size: 22px;
+	line-height: 23px;
+	color: #444444;
+	font-family: "Patua One";
+	font-weight: 400;
+	}
+	.vitae-heading3{
+		font-size: 21px;
+line-height: 21px;
+color: #ffffff;
+font-family: "Patua One";
+font-weight: 400;
+}
+	
 
 
 
@@ -172,19 +202,14 @@ text-align: center;
 }
 
 #main-footer{
-	background: #262f36;
+	background: #545454;
 	color: white;
 	padding: 6rem 0;
 	font-size: 0.8rem;
 }
-#main-footer h6{
-	color: #718fa9;
 
-}
-#main-footer a{
-	color:  #6c5f73;
 
-}
+
 .flag{
 	max-height: 20px;
 	max-width: 20px;
@@ -414,3 +439,49 @@ footer{
 	
  } 
  
+/* timeline css */
+ ul.timeline {
+    list-style-type: none;
+    position: relative;
+}
+ul.timeline:before {
+    content: ' ';
+    background: #d4d9df;
+    display: inline-block;
+    position: absolute;
+    left: 29px;
+    width: 2px;
+    height: 100%;
+    z-index: 400;
+}
+ul.timeline > li {
+    margin: 20px 0;
+    padding-left: 20px;
+}
+ul.timeline > li:before {
+    content: ' ';
+    background: white;
+    display: inline-block;
+    position: absolute;
+    border-radius: 50%;
+    border: 3px solid #22c0e8;
+    left: 20px;
+    width: 20px;
+    height: 20px;
+    z-index: 400;
+}
+.timeline-text{
+	
+font-size: 13px;
+line-height: 18px;
+color: #ffffff;
+font-family: "Helvetica World";
+font-weight: bold;
+}
+ui.timeline > li.a:hover{
+	font-size: 13px;
+line-height: 18px;
+color: #ffffff;
+font-family: "Helvetica World";
+font-weight: bold;
+}
