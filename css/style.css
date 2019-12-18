@@ -32,9 +32,10 @@ img{
 	 
 }
 #stage{
-	background: url('D:/Project/dhkumawat/images/black-sofa.jpg') center center no-repeat;
+	background: rgb(200,70,200);
+	background: linear-gradient(135deg, rgba(200,70,200,1) 44%, rgba(41,135,202,1) 71%, rgba(41,145,214,1) 87%, rgba(0,212,255,1) 100%);
 	background-size: cover;
-	color: white;
+	
 	height: 100%;
 	width: 100%;
 	display: flex;
@@ -68,7 +69,8 @@ img{
 	
 }
 .feature-facts{
-	background: #f0f0f0;
+	background: rgb(240,240,240);
+background: linear-gradient(168deg, rgba(240,240,240,1) 50%, rgba(41,135,202,1) 88%, rgba(41,145,214,1) 98%, rgba(0,212,255,1) 100%);
 }
 .fancy-heading{
 	
